@@ -1,3 +1,3 @@
-title: Fatal Arcade's GitHub Pages
-description: For all of Fatal Arcades Projects
-theme: jekyll-theme-slate
+title: My Site
+description: A GitHub Pages site with Jekyll
+theme: minima  # or another supported theme
