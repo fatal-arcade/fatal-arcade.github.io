@@ -1,56 +1,57 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  display: flex;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	display: flex;
 }
 
-/* Sidebar */
+/* sidebar */
 #sidebar {
-  width: 250px;
-  background: #333;
-  color: white;
-  height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-  transition: width 0.3s ease;
-  overflow: hidden;
+	width: 250px;
+	background: #333;
+	color: white;
+	height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: width 0.3s ease;
+	overflow: hidden;
 }
 
 #sidebar.collapsed {
-  width: 60px;
+	width: 0px;
 }
 
 #sidebar h2 {
-  margin-top: 0;
-  font-size: 1.2em;
+	margin-top: 0;
+	font-size: 1.2em;
 }
 
 #sidebar ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 #sidebar ul li {
-  margin: 15px 0;
+	margin: 15px 0;
 }
 
 #sidebar ul li a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 /* Toggle button */
 #toggle-btn {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-  font-size: 24px;
-  cursor: pointer;
+	background-color: (0, 0, 0, 0);
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 1000;
+	font-size: 24px;
+	cursor: pointer;
 }
 
 /* Main content */
 main {
-  flex: 1;
-  padding: 20px;
+	flex: 1;
+	padding: 20px;
 }
