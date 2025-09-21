@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Plainwalker';
-  src: url('https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/css/planewalker/Planewalker.otf') format('opentype');
+  src: url('../css/planewalker/Planewalker.otf') format('opentype');
 }
 @keyframes bannermotion{
   0% {background-size: 120%; background-position: bottom center;}
@@ -15,7 +15,7 @@ header{
   padding: 20px;
   width: 100%;
   height: 250px;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/tamrielheroes1.jpg");
+  background-image: url("../images/templates/tamrielheroes1.jpg");
   background-repeat: no-repeat;
   background-size:100%;
   background-position: relative;
@@ -44,7 +44,7 @@ body {
 .subhead{
   width:100%;
   height: 50px;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/navbar_banner_greydient.png");
+  background-image: url("../images/templates/navbar_banner_greydient.png");
   background-repeat:repeat-x;
   background-position: center;
   background-size: 5%;
@@ -60,7 +60,7 @@ body {
   height: 150%;
 
   transform: translateY(-8%);
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/ouroboros.jpg");
+  background-image: url("../images/templates/ouroboros.jpg");
   background-position: center;
   background-size: 62%;
   =background-color: #000000;
@@ -74,7 +74,7 @@ body {
   margin:0 auto;
   width:150px;
   height:150px;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/compass/MMXLogo.jpg");
+  background-image: url("../images/icons/compass/MMXLogo.jpg");
   background-repeat:no-repeat;
   background-position: center;
   background-color: #000000;
@@ -97,7 +97,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/dragonknight_icon.png");
+  background-image: url("../images/icons/class/dragonknight_icon.png");
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 50%;
@@ -111,7 +111,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/sorcerer_icon.png");
+  background-image: url("../images/icons/class/sorcerer_icon.png");
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 50%;
@@ -125,7 +125,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/templar_icon.png");
+  background-image: url("../images/icons/class/templar_icon.png");
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 50%;
@@ -139,7 +139,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/nightblade_icon.png");
+  background-image: url("../images/icons/class/nightblade_icon.png");
   background-repeat: no-repeat;
   background-position: left;
   border-radius: 50%;
@@ -153,7 +153,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/warden_icon.png");
+  background-image: url("../images/icons/class/warden_icon.png");
   background-repeat: no-repeat;
   background-position: left;
   border-radius: 50%;
@@ -167,7 +167,7 @@ body {
   width: 50%;
   height: 30%;
   background-color: #000000;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/icons/class/necromancer_icon.png");
+  background-image: url("../images/icons/class/necromancer_icon.png");
   background-repeat: no-repeat;
   background-position: left;
   border-radius: 50%;
@@ -186,7 +186,7 @@ body {
   height: 50px;
   float: left;
   margin: 0 auto;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/youtubeicon.png");
+  background-image: url("../images/templates/youtubeicon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -196,7 +196,7 @@ body {
   height: 50px;
   float: left;
   margin: 0 auto;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/xboneicon.png");
+  background-image: url("../images/templates/xboneicon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -214,7 +214,7 @@ body {
   width: 30%;
   height: 100%;
   background-color: #ffffff;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/eso_ouroboros.jpg");
+  background-image: url("../images/templates/eso_ouroboros.jpg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: 325%;
@@ -224,7 +224,7 @@ body {
   width: 30%;
   height: 100%;
   background-color: #ffffff;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/eso_ouroboros.jpg");
+  background-image: url("../images/templates/eso_ouroboros.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 350%;
@@ -234,7 +234,7 @@ body {
   width: 36%;
   height: 100%;
   background-color: #ffffff;
-  background-image: url("https://github.com/fatal-arcade/fatal-arcade.github.io/blob/main/images/templates/eso_ouroboros.jpg");
+  background-image: url("../images/templates/eso_ouroboros.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 250%;
