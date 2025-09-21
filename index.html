@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html>
-	
 	<head>
-		<meta charset="UTF-8">
-		<title>Hello World</title>
+		<meta charset="UTF-8">                                                                                              	<!--chartset for HTML5-->
+		<meta http-equiv="refresh" content="120">                                                                            	<!--auto-refresh page: currently @ 30 seconds-->
+		<meta http-equiv="Content-Language" content="en-us" />                                                              	<!--language setup currently as English-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">                                              	<!--web dev control over web appearance-->
+		<meta name="author" content="Fatal Arcade">                                                                         	<!--you (probably)- the author: content="yourname"-->
+		<meta name="keywords" content="">                                                        						<!--keywords indexed for a search engine-->
+		<meta name="description" content="Fatal Arcade's GitHub Pages">                                 				<!--description of page indexed for a search engine-->
+		<!-- stylesheets -->
+		<link rel="stylesheet" href="css/main.css">                  										<!--a call to an external css file-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">                        	<!--a call to an external css file-->
 	</head>
 	
 	<body>
+	
+		<!-- sidebar -->
+		<button id="toggle-btn">☰</button>
+		<div id="sidebar" class="collapsed">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="#">Minecraft (Bedrock Edition)</a></li>
+				<li><a href="#">The Elder Scrolls Online</a></li>
+				<li><a href="#">_</a></li>
+				<li><a href="#">_</a></li>
+			</ul>
+		</div>
+		
+		
+		<!-- page content -->
 		<h1>Hello from GitHub Pages!</h1>
 		<p>This is my new site.</p>
 		<ul>
 			<li><a href="https://fatal-arcade.github.io/minecraft-bedrock-edition">Minecraft Bedrock Edition</a></li>
 			<li><a href="https://fatal-arcade.github.io/the-elder-scrolls-online">The Elder Scrolls Online</a></li>
 		</ul>
+		
+		<script src="main.js" defer></script>
+	
 	</body>
 	
 </html>
