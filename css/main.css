@@ -1,4 +1,12 @@
+:root {
+	--theme-background: rgba(10, 10, 10, 1.0);
+	--font-color-major: rgba(200, 200, 200, 1.0);
+}
+
+
 body {
+	color: var(--font-color-major);
+	background-color:var(--theme-background);
 	margin: 0;
 	font-family: Arial, sans-serif;
 	display: flex;
@@ -8,9 +16,9 @@ body {
 #sidebar {
 	width: 250px;
 	background: #333;
-	color: white;
+	color: var(--font-color-major);
 	height: 100vh;
-	padding: 20px;
+	padding: 0px;
 	box-sizing: border-box;
 	transition: width 0.3s ease;
 	overflow: hidden;
@@ -31,27 +39,34 @@ body {
 }
 
 #sidebar ul li {
-	margin: 15px 0;
+	margin: 0px 0;
 }
 
 #sidebar ul li a {
-	color: white;
+	color: var(--font-color-major);
 	text-decoration: none;
 }
 
 /* Toggle button */
 #toggle-btn {
-	background-color: (0, 0, 0, 0);
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	z-index: 1000;
-	font-size: 24px;
-	cursor: pointer;
+	background: none;
+	border: none;
+	top:20px;
+	left:20px;
+	width:50px;
+	height:50px;
+	z-index:1000;
+	font-size:40px;
+	color: var(--font-color-major);
+	cursor:pointer;
+	/*
+	position: fixed;
+	*/
+	
 }
 
 /* Main content */
 main {
 	flex: 1;
-	padding: 20px;
+	padding: 0px;
 }
