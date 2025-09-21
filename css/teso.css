@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Plainwalker';
+  src: url('file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/css/planewalker/Planewalker.otf') format('opentype');
+}
+@keyframes bannermotion{
+  0% {background-size: 120%; background-position: bottom center;}
+  50% {background-size: 120%; background-position: top center;}
+  100% {background-size: 120%; background-position: bottom center;}
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/tamrielheroes1.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: relative;
+  animation-name: bannermotion;
+  animation-duration: 120s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+}
+body {
+  height: 1000px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+.header-options {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  margin: 0 auto;
+  width: 100%;
+  height: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffffff;
+}
+.subhead{
+  width:100%;
+  height: 50px;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/navbar_banner_greydient.png");
+  background-repeat:repeat-x;
+  background-position: center;
+  background-size: 5%;
+}
+.scrolltext{
+  display: inline-block;
+  margin-top: 10px;
+  color:=#ffffff;
+}
+.column-mid {
+  float: left;
+  width: 25%;
+  height: 150%;
+
+  transform: translateY(-8%);
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/ouroboros.jpg");
+  background-position: center;
+  background-size: 62%;
+  =background-color: #000000;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 1.0;
+  filter: alpha(opacity=10);
+  text-align: center;
+}
+.mmx{
+  margin:0 auto;
+  width:150px;
+  height:150px;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/compass/MMXLogo.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color: #000000;
+  transform:translateY(40%);
+  border-radius: 50%;
+  background-size: 80%;
+  font-family: 'Plainwalker'
+  color:#ffffff;
+}
+.column-left, .column-right {
+  float: left;
+  width: 40%;
+  height: 125%;
+  transform: translateY(5%);
+  'background-color: #000000;
+}
+.mainmenu{
+  padding: 1px;
+  float: right;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/dragonknight_icon.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50%;
+  font-family: 'Plainwalker';
+  text-align: right;
+  font-size: 22px;
+}
+.builds{
+  padding: 1px;
+  float: right;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/sorcerer_icon.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50%;
+  font-family: 'Plainwalker';
+  text-align: right;
+  font-size: 22px;
+}
+.crafting{
+  padding: 1px;
+  float: right;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/templar_icon.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50%;
+  font-family: 'Plainwalker';
+  text-align: right;
+  font-size: 22px;
+}
+.recipe{
+  padding: 1px;
+  float: left;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/nightblade_icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 50%;
+  font-family: 'Plainwalker';
+  text-align: left;
+  font-size: 22px;
+}
+.maps{
+  padding: 1px;
+  float: left;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/warden_icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 50%;
+  font-family: 'Plainwalker';
+  text-align: left;
+  font-size: 22px;
+}
+.notes{
+  padding: 1px;
+  float: left;
+  width: 50%;
+  height: 30%;
+  background-color: #000000;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/icons/class/necromancer_icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 50%;
+  background-size: 22%;
+  font-family: 'Plainwalker';
+  text-align: left;
+  font-size: 22px;
+}
+.greybar{
+  width:100px;
+  height: 50px;
+  margin: 0 auto;
+}
+.ytlogo{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 auto;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/youtubeicon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.xbologo{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 auto;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/xboneicon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+}
+.main-body{
+  width: 90%;
+  height: 750px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.main-left{
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/eso_ouroboros.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 325%;
+  opacity: 1.0;
+}
+.main-right{
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/eso_ouroboros.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 350%;
+  opacity: 1.0;
+}
+.main-mid{
+  width: 36%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("file:///C:/Users/shared/documents/html/projects/_archived/mmx_gaming/MacroMorgX_Gaming/images/templates/eso_ouroboros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  opacity: 1.0;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
