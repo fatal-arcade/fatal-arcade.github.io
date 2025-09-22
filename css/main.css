@@ -5,39 +5,58 @@
   font-style: normal;
 }
 
-
 :root {
 	--color-background: rgba( 10,  10,  10, 1.0);
 	--color-side-panel: rgba( 30,  30,  40, 1.0);
+	--color-top-banner: rgba(0, 0, 0, 0.5);
 	--color-font-major: rgba(200, 200, 200, 1.0);
 }
-
 
 body {
 	font-family: Arial, sans-serif;
 	color: var(--color-font-major);
 	background-color:var(--color-background);
+	background-image:url('../img/fatal-arcade-wallpaper.png');
 	display: flex;
 	margin: 0;
 }
 
 #mygamertag {
 	font-family: PsyonicVII, sans-serif;
-	font-size: 35px;
-	margin-top: 20px;
+	font-size: 64px;
+	margin-top: 12px;
+	margin-left: 32px;
+	margin-right: auto;
+	float: left;
 }
 
 #content-banner {
-	background-color: var(--color-side-panel);
-	display:inline-flex;
+	background-color: var(--color-top-banner);
+	justify-content: space-between;
+	display: flex;
 	height: 100px;
 	width:100%
+}
+
+#toggle-btn {
+	background: none;
+	border: none;
+	margin-top: 10px;
+	top:20px;
+	left:20px;
+	width:50px;
+	height:50px;
+	z-index:1000;
+	float: left;
+	font-size:35px;
+	color: var(--font-color-major);
+	cursor:pointer;	
 }
 
 #sidebar {
 	background: var(--color-side-panel);
 	height: 100vh;
-	width: 400px;
+	width: 200px;
 	box-sizing: border-box;
 	transition: width 0.3s ease;
 	overflow: hidden;
@@ -63,24 +82,6 @@ body {
 #sidebar ul li a {
 	color: var(--font-color-major);
 	text-decoration:none;
-}
-
-#toggle-btn {
-	background: none;
-	border: none;
-	margin-top: 10px;
-	top:20px;
-	left:20px;
-	width:50px;
-	height:50px;
-	z-index:1000;
-	font-size:35px;
-	color: var(--font-color-major);
-	cursor:pointer;
-	/*
-	position: fixed;
-	*/
-	
 }
 
 /* Main content */
