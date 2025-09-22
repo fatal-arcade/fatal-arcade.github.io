@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'PsyonicVII';      /* name you’ll use in CSS */
+  src: url('../fonts/psyonicexpand.ttf') format('truetype'); /* path & format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
 	--color-background: rgba( 10,  10,  10, 1.0);
 	--color-side-panel: rgba( 30,  30,  40, 1.0);
@@ -13,10 +21,23 @@ body {
 	margin: 0;
 }
 
+#mygamertag {
+	font-family: PsyonicVII, sans-serif;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+#content-banner {
+	background-color: var(--color-side-panel);
+	display:inline-flex;
+	height: 100px;
+	width:100%
+}
+
 #sidebar {
 	background: var(--color-side-panel);
 	height: 100vh;
-	width: 250px;
+	width: 400px;
 	box-sizing: border-box;
 	transition: width 0.3s ease;
 	overflow: hidden;
