@@ -15,8 +15,8 @@
 body {
 	font-family: Arial, sans-serif;
 	color: var(--color-font-major);
-	background-color:var(--color-background);
-	background-image:url('../img/fatal-arcade-wallpaper.png');
+	background-color: var(--color-background);
+	background-image: url('../img/fatal-arcade-wallpaper.png');
 	display: flex;
 	margin: 0;
 }
@@ -34,8 +34,9 @@ body {
 	background-color: var(--color-top-banner);
 	justify-content: space-between;
 	display: flex;
-	height: 100px;
-	width:100%
+	height: 100x;
+	width: 100%;
+	height: 5vw;
 }
 
 #toggle-btn {
