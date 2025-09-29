@@ -46,9 +46,10 @@ body {
 
 #navheader {
 	background-color: var(--color-background);
-	justify-content: left;
+	justify-content: center;
 	display: inline-flex;
-	height: 5vw;
+	min-height: 10vh;
+	height: 10vh;
 	width: 100%;
 }
 
