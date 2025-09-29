@@ -78,10 +78,13 @@ body {
 }
 
 #sidebar ul li {
-	margin: 10px 20px;
+	margin-top: 2vw;
+	margin-left: 0px;
+	margin-right: 1vw;
 }
 
 #sidebar ul li a {
+	font-size: 1.25vw;
 	color: var(--font-color-major);
 	text-decoration:none;
 }
