@@ -6,21 +6,26 @@
 }
 
 :root {
-	--color-background: rgba( 10,  10,  10, 1.0);
-	--color-side-panel: rgba( 30,  30,  40, 1.0);
-	--color-top-banner: rgba(0, 0, 0, 0.5);
-	--color-font-major: rgba(200, 200, 200, 1.0);
-	--color-font-minor: rgba(0, 0, 0, 1.0);
-	--color-font-light: rgba(255, 200, 0, 1.0);
+	--color-transparent: rgba(  0,   0,   0, 0.0);
+	--color-background:  rgba(  0,   0,   0, 1.0);
+	--color-side-panel:  rgba( 30,  30,  40, 1.0);
+	--color-top-banner:  rgba(  0,   0,   0, 0.5);
+	--color-font-major:  rgba(200, 200, 200, 1.0);
+	--color-font-minor:  rgba(  0,   0,   0, 1.0);
+	--color-font-light:  rgba(255, 250,   0, 1.0);
 }
 
 body {
 	font-family: Arial, sans-serif;
 	color: var(--color-font-major);
 	background-color: var(--color-background);
-	background-image: url('../img/fatal-arcade-wallpaper.png');
-	display: flex;
-	margin: 0;
+	background-image: url('../img/cab-and-xbone-front.png');
+	background-repeat: no-repeat;
+	background-size: 512px;
+	background-position-x: center;
+	background-position-y: -50%;
+	display: block;
+	margin: 0 auto;
 }
 
 #mygamertag {
@@ -33,7 +38,7 @@ body {
 	float: left;
 }
 
-#content-banner {
+#nav-header {
 	background-color: var(--color-top-banner);
 	justify-content: space-between;
 	display: flex;
@@ -43,29 +48,37 @@ body {
 }
 
 #toggle-btn {
-	background: none;
+	background-color: var(--color-transparent);
+	background-image: url('../img/cab-and-xbone-side.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 100%;
 	border: none;
-	margin-top: 0;
-	width:3vw;
-	height:1vw;
+	margin-top: 1vh;
+	margin-left: 1.5vw;
+	width: 3.5vw;
+	height: 3.5vw;
 	z-index:1000;
 	float: left;
 	font-size:3vw;
-	color: var(--font-color-major);
+	filter: invert(100%);
+	color: var(--color-font-major);
 	cursor:pointer;	
 }
 
+
 #sidebar {
 	background: var(--color-side-panel);
-	height: 100vh;
-	width: 30vw;
+	height: 5vh;
+	width: 100vw;
 	box-sizing: border-box;
-	transition: width 0.3s ease;
+	transition: height 0.3s ease;
 	overflow: hidden;
 }
 
 #sidebar.collapsed {
-	width: 0px;
+	height: 0px;
 }
 
 #sidebar h2 {
@@ -83,9 +96,9 @@ body {
 	margin-right: 1vw;
 }
 
-#sidebar ul li a {
+#sidebar a {
 	font-size: 1.25vw;
-	color: var(--font-color-major);
+	color: var(--color-font-major);
 	text-decoration:none;
 }
 
