@@ -7,9 +7,9 @@
 
 :root {
 	--color-transparent: rgba(  0,   0,   0, 0.0);
-	--color-background:  rgba(  0,   0,   0, 1.0);
+	--color-background:  rgba( 30,  30,  30, 1.0);
 	--color-side-panel:  rgba( 80,  80,  80, 1.0);
-	--color-top-banner:  rgba(  0,   0,   0, 0.5);
+	--color-top-banner:  rgba(  0,   0,   0, 0.75);
 	--color-font-major:  rgba(200, 200, 200, 1.0);
 	--color-font-minor:  rgba(  0,   0,   0, 1.0);
 	--color-font-light:  rgba(255, 250,   0, 1.0);
