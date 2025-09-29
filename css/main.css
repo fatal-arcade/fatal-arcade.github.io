@@ -36,7 +36,7 @@ body {
 
 #mygamertag {
 	font-family: PsyonicVII, sans-serif;
-	font-size: 3vw;
+	font-size: clamp(3vw, 32px, 64px);
 	color: var(--color-theme-yellow);
 	margin-top: 0.80vw;
 	margin-left: 2vw;
@@ -48,7 +48,8 @@ body {
 	background-color: var(--color-background);
 	justify-content: center;
 	display: inline-flex;
-	min-height: 10vh;
+	min-height: 80px;
+	max-height: 10vh;
 	height: 10vh;
 	width: 100%;
 }
@@ -63,6 +64,9 @@ body {
 	border: none;
 	margin-top: 1vh;
 	margin-left: 1vw;
+	min-width: 60px;
+	min-height: 60px;
+
 	width: 3.5vw;
 	height: 3.5vw;
 	z-index:1000;
