@@ -28,7 +28,7 @@ body {
 	background-image: url('../img/cab-and-xbone-front.png');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-size: 512px;
+	background-size: clamp(25vw, 448px, 512px);
 	background-position-x: center;
 	background-position-y: calc(100vh * 0.25);
 	display: block;
@@ -37,11 +37,9 @@ body {
 
 #mygamertag {
 	font-family: PsyonicVII, sans-serif;
-	font-size: clamp(3vw, 32px, 64px);
+	font-size: clamp(3vw, 48px, 64px);
 	color: var(--color-theme-yellow);
-	margin-top: 0.80vw;
-	margin-left: 2vw;
-	margin-right: 2vw;
+	margin: 15px 0 10px 25px;
 	float: left;
 }
 
@@ -49,9 +47,7 @@ body {
 	background-color: var(--color-background);
 	justify-content: center;
 	display: inline-flex;
-	min-height: 80px;
-	max-height: 10vh;
-	height: 10vh;
+	height: clamp(10vh, 80px, 100px);
 	width: 100%;
 }
 
