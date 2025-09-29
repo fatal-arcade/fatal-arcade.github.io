@@ -8,11 +8,13 @@
 :root {
 	--color-transparent: rgba(  0,   0,   0, 0.0);
 	--color-background:  rgba(  0,   0,   0, 1.0);
-	--color-side-panel:  rgba( 30,  30,  40, 1.0);
+	--color-side-panel:  rgba( 80,  80,  80, 1.0);
 	--color-top-banner:  rgba(  0,   0,   0, 0.5);
 	--color-font-major:  rgba(200, 200, 200, 1.0);
 	--color-font-minor:  rgba(  0,   0,   0, 1.0);
 	--color-font-light:  rgba(255, 250,   0, 1.0);
+	--color-theme-red:   rgba(180,  60,  90, 1.0);
+	--color-theme-blue:  rgba( 70,  60, 180, 1.0);
 }
 
 body {
@@ -23,7 +25,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 512px;
 	background-position-x: center;
-	background-position-y: -50%;
+	background-position-y: calc(100vh * 0.25);
 	display: block;
 	margin: 0 auto;
 }
@@ -31,20 +33,19 @@ body {
 #mygamertag {
 	font-family: PsyonicVII, sans-serif;
 	font-size: 3vw;
-	color: var(--color-font-light);
+	color: var(--color-theme-red);
 	margin-top: 0.80vw;
 	margin-left: 2vw;
-	margin-right: auto;
+	margin-right: 2vw;
 	float: left;
 }
 
-#nav-header {
+#navheader {
 	background-color: var(--color-top-banner);
-	justify-content: space-between;
-	display: flex;
-	height: 100px;
-	width: 100%;
+	justify-content: left;
+	display: inline-flex;
 	height: 5vw;
+	width: 100%;
 }
 
 #toggle-btn {
@@ -56,47 +57,36 @@ body {
 	background-size: 100%;
 	border: none;
 	margin-top: 1vh;
-	margin-left: 1.5vw;
+	margin-left: 1vw;
 	width: 3.5vw;
 	height: 3.5vw;
 	z-index:1000;
 	float: left;
 	font-size:3vw;
-	filter: invert(100%);
+	filter: invert(80%);
 	color: var(--color-font-major);
 	cursor:pointer;	
 }
 
 
-#sidebar {
-	background: var(--color-side-panel);
-	height: 5vh;
-	width: 100vw;
+#navbar {
+	background: var(--color-theme-blue);
+	display: inline-block;
+	justify-content: space-between;
+	margin: 3vh 0 auto 0;
+	height: 3vh;
+	width: 60vw;
 	box-sizing: border-box;
-	transition: height 0.3s ease;
+	transition: width 0.5s ease;
 	overflow: hidden;
 }
 
-#sidebar.collapsed {
-	height: 0px;
+#navbar.collapsed {
+	width: 0px;
 }
 
-#sidebar h2 {
-	margin-top: 0;
-	font-size: 2vw;
-}
-
-#sidebar ul {
-	list-style:disc;
-}
-
-#sidebar ul li {
-	margin-top: 2vw;
-	margin-left: 0px;
-	margin-right: 1vw;
-}
-
-#sidebar a {
+#navbar a {
+	margin: auto auto;
 	font-size: 1.25vw;
 	color: var(--color-font-major);
 	text-decoration:none;
