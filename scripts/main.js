@@ -1,7 +1,8 @@
 
-const toggleBtn = document.getElementById("toggle-btn");
-const sidebar = document.getElementById("navbar");
+const navbar_button = document.getElementById("navbar-button");
 
-toggleBtn.addEventListener("click", () => {
-  sidebar.classList.toggle("collapsed");
+const navbar = document.getElementById("navbar");
+
+navbar_button.addEventListener("click", () => {
+  navbar.classList.toggle("collapsed");
 });
